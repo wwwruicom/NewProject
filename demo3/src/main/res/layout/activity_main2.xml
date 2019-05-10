@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="28sp"
+        android:textColor="#00f"
+        android:text="注册"/>
+    <EditText
+        android:id="@+id/zc_yhm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="手机号"
+        android:ems="12"
+        android:layout_below="@id/tv2"
+        android:inputType="phone"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/zc_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="密码"
+        android:layout_below="@id/zc_yhm"
+        android:inputType="numberPassword"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/zc_zc"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="#f00f"
+        android:layout_below="@id/zc_pwd"
+        android:layout_centerHorizontal="true"
+        android:text="立即注册"
+        android:textSize="25sp"
+        android:layout_marginTop="60dp"/>
+
+</RelativeLayout>
